@@ -14,8 +14,10 @@ A bilingual (Arabic/English) landing page built to promote RedotPay offers throu
 - 🎨 Dark fintech-inspired theme matching RedotPay's visual identity
 - 📱 Fully responsive (Desktop / Tablet / Mobile)
 - ⚙️ All links, images, colors, and stats managed from one config file (`config.js`)
-- 🔍 SEO-ready: Open Graph, Twitter Cards, Schema.org, robots.txt, sitemap.xml
+- 🔍 SEO-ready: canonical + hreflang tags, Open Graph (with locale sync), Twitter Cards, Schema.org (WebSite + WebPage + FAQPage), robots.txt, sitemap.xml
+- ♿ Accessibility: ARIA attributes on FAQ accordion, mobile menu, and video trigger; keyboard support for the video frame
 - 🎬 Video tutorial section, screenshot gallery, testimonials, FAQ, and animated counters
+- 🎟️ Promo codes section (#codes): invite code + virtual/physical card discount codes with one-click copy, and a Facebook contact button — all managed from `config.js` (`promoCodes`, `contactFacebook`)
 
 ---
 
